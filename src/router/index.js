@@ -7,7 +7,7 @@ const routes = [
   {
     path: "/",
     name: "signup",
-    component: () => import("../components/one-com.vue"),
+    component: () => import("../components/two-com.vue"),
   },
   {
     path: "/informations-de-l-expedition",

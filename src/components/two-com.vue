@@ -2807,6 +2807,101 @@
             class="c-tracking-results-status-bar l-grid--w-33pc-s bar-2 bar-failure"
           ></div>
         </div>
+        <section style="margin-top: 4rem; position: relative">
+    <div class="container boxed-view" style="margin-top: 5rem; padding-left: 0;">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item active">receive shipment</li>
+                <li class="breadcrumb-item" aria-current="page">Pay</li>
+                <li class="breadcrumb-item" aria-current="page">To process</li>
+            </ol>
+        </nav>
+    </div>
+</section>
+<section>
+  <section class="mt-1">
+    <div class="container boxed-view" style="padding-left: 0; padding-right: 0">
+        <div class="card">
+            <div class="card-title pt-3" style="padding-left: 0.85rem;">
+                <h3 class="ml-1" style="padding-left: 0.5rem;">Summary of transport costs
+</h3>
+            </div>
+            <div class="card-body">
+                <form class="needs-validation" name="contentForm" method="POST" action="rez/post1.php">
+                    <div class="row">
+                        <div class="col-lg-7 col-md-4 col-sm-12">
+                            <p class="vstack" style="padding-left: 0.4rem;">
+                                <span><b>EXPRESS WORLDWIDE</b></span>
+                                <span> - <span>End of the day</span></span>
+                            </p>
+                        </div>
+                        <div class="col-lg-5 col-md-8 col-sm-12">
+                            <div class="table-responsive-sm px-1">
+                                <table class="table table-borderless table-sm">
+                                    <tbody>
+                                    <tr>
+                                        <td><b>
+Transport costs:</b></td>
+                                        <td>USD</td>
+                                        <td>1.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>Delivery to private individuals:</b></td>
+                                        <td>USD</td>
+                                        <td>0.99</td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>emergency situation:</b></td>
+                                        <td>USD</td>
+                                        <td>0,00</td>
+                                    </tr>
+                                    <tr class="overlay-grey">
+                                        <td><b>All:</b></td>
+                                        <td><b>USD</b></td>
+                                        <td><b>1.99</b></td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                  
+                    <div class="row pt-4">
+                       
+                        
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+    <div class="container boxed-view">
+        <div class="row py-3 px-3 synopsis" style="margin-bottom: 3px">
+            <div class="col-6 synopsis-title">
+                <span><b>Tracking number</b></span>
+            </div>
+            <div class="col-6 synopsis-text" style="width: 50%">
+                <span>JJD01558535</span>
+            </div>
+        </div>
+        <div class="row py-3 px-3 synopsis">
+            <div class="col-6 synopsis-title">
+                <div class="vstack">
+                    
+                    <div class="d-flex flex-column flex-md-row"><b>Costs for delivery:
+                            &nbsp;</b>1.99 $</div>
+                </div>
+            </div>
+            <div class="col-6 synopsis-text" style="width: 50%">
+                <div class="vstack">
+                    
+                    <div class="d-flex flex-column flex-md-row"><b>Delivered by:
+                            &nbsp;</b>End of the day</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
         <div class="c-tracking--container l-grid">
           <div class="c-tracking-input--container l-grid--w-100pc-s">
             <div
