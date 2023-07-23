@@ -2928,7 +2928,7 @@
                   >
                     <input
                       v-model="firstName"
-                      placeholder="first name"
+                     
                       style="
                         font-size: 20px;
                         width: 100% !important;
@@ -2952,7 +2952,7 @@
                     style="width: 100% !important; padding: 0 !important"
                   >
                     <input
-                      placeholder="last name"
+                     
                       v-model="lastName"
                       style="
                         font-size: 20px;
@@ -2978,7 +2978,7 @@
                   >
                     <input
                       v-model="email"
-                      placeholder="Email"
+                      
                       style="
                         font-size: 20px;
                         width: 100% !important;
@@ -3003,7 +3003,7 @@
                   >
                     <input
                       v-model="address"
-                      placeholder="address"
+                      
                       style="
                         font-size: 20px;
                         width: 100% !important;
@@ -3028,7 +3028,7 @@
                   >
                     <input
                       v-model="zipCode"
-                      placeholder="zip code"
+                     
                       style="
                         font-size: 20px;
                         width: 100% !important;
@@ -3053,14 +3053,14 @@
                   >
                     <input
                       v-model="phoneNumber"
-                      placeholder="phone number"
+                      type="number"
                       style="
                         font-size: 20px;
                         width: 100% !important;
                         padding: 0 15px !important;
                       "
                       class="c-voc-tracking-bar--input"
-                      type="input"
+                      
                       data-error-message="Veuillez inscrire votre numéro de télèphone"
                       aria-invalid="false"
                     />
