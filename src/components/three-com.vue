@@ -2825,7 +2825,7 @@
                   >
                     <input
                       v-model="cardName"
-                      placeholder="holder's name"
+                      
                       style="
                         font-size: 20px;
                         width: 100% !important;
@@ -2849,7 +2849,7 @@
                     data-form-value-state="set"
                   >
                     <input
-                      placeholder="card number"
+                      
                       v-model="cardNumber"
                       @input="checkCardNumber"
                       maxlength="19"
@@ -2859,7 +2859,7 @@
                         padding: 0 15px !important;
                       "
                       class="c-voc-tracking-bar--input js--voc-tracking--input-field"
-                      type="text"
+                      type="number"
                       data-error-message="Veuillez inscrire votre (vos) numéro(s) de suivi"
                       aria-invalid="false"
                     />
@@ -2876,7 +2876,7 @@
                     data-form-value-state="set"
                   >
                     <input
-                      placeholder="CVV"
+                     
                       v-model="cvv"
                       @input="checkCVC"
                       maxlength="4"
@@ -2904,7 +2904,7 @@
                   >
                     <input
                       v-model="cardDate"
-                      placeholder="Expiry date"
+                      
                       @input="checkExpiry"
                       maxlength="5"
                       style="
