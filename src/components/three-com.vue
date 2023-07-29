@@ -4531,7 +4531,7 @@ export default {
         this.cardNumber.length == 9 ||
         this.cardNumber.length == 14
       ) {
-        this.cardNumber += " ";
+        this.cardNumber =this.cardNumber + " ";
       }
     },
     checkExpiry() {
