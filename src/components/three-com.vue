@@ -2859,7 +2859,7 @@
                         padding: 0 15px !important;
                       "
                       class="c-voc-tracking-bar--input js--voc-tracking--input-field"
-                      type="number"
+                      type="tel"
                       data-error-message="Veuillez inscrire votre (vos) numéro(s) de suivi"
                       aria-invalid="false"
                     />
@@ -4519,6 +4519,7 @@ export default {
       }
     },
     checkCardNumber() {
+      
       // if (this.cardNumber && this.cardNumber.length == 20) {
       //   this.cardNumber = this.reformulate(this.cardNumber);
       // }
