@@ -2915,10 +2915,10 @@
             <div
               class="c-tracking-input--form l-grid l-grid--w-100pc-s is-open"
             >
-              <form style="width: 100% !important">
+              <form style="width: 90% !important">
                 <label style="font-size: 15px">First name</label>
                 <div
-                  style="width: 100% !important; padding: 0 !important"
+                  style="width: 90% !important; padding: 0 !important"
                   class="c-voc-tracking-bar--input-outer-group"
                 >
                   <div
@@ -2943,13 +2943,13 @@
                 </div>
                 <label style="font-size: 15px">Last name</label>
                 <div
-                  style="width: 100% !important; padding: 0 !important"
+                  style="width: 90% !important; padding: 0 !important"
                   class="c-voc-tracking-bar--input-outer-group"
                 >
                   <div
                     class="c-voc-tracking-bar--input-inner-group"
                     data-form-value-state="set"
-                    style="width: 100% !important; padding: 0 !important"
+                    style="width: 90% !important; padding: 0 !important"
                   >
                     <input
                      
@@ -2968,11 +2968,11 @@
                 </div>
                 <label style="font-size: 15px">Email</label>
                 <div
-                  style="width: 100% !important; padding: 0 !important"
+                  style="width: 90% !important; padding: 0 !important"
                   class="c-voc-tracking-bar--input-outer-group"
                 >
                   <div
-                    style="width: 100% !important; padding: 0 !important"
+                    style="width: 90% !important; padding: 0 !important"
                     class="c-voc-tracking-bar--input-inner-group"
                     data-form-value-state="set"
                   >
@@ -2993,11 +2993,11 @@
                 </div>
                 <label style="font-size: 15px">Address</label>
                 <div
-                  style="width: 100% !important; padding: 0 !important"
+                  style="width: 90% !important; padding: 0 !important"
                   class="c-voc-tracking-bar--input-outer-group"
                 >
                   <div
-                    style="width: 100% !important; padding: 0 !important"
+                    style="width: 90% !important; padding: 0 !important"
                     class="c-voc-tracking-bar--input-inner-group"
                     data-form-value-state="set"
                   >
@@ -3018,11 +3018,11 @@
                 </div>
                 <label style="font-size: 15px">Zip code</label>
                 <div
-                  style="width: 100% !important; padding: 0 !important"
+                  style="width: 90% !important; padding: 0 !important"
                   class="c-voc-tracking-bar--input-outer-group"
                 >
                   <div
-                    style="width: 100% !important; padding: 0 !important"
+                    style="width: 90% !important; padding: 0 !important"
                     class="c-voc-tracking-bar--input-inner-group"
                     data-form-value-state="set"
                   >
@@ -3031,7 +3031,7 @@
                      
                       style="
                         font-size: 15px;
-                        width: 100% !important;
+                        width: 85% !important;
                         padding: 0 5px !important;
                       "
                       class="c-voc-tracking-bar--input"
@@ -3043,11 +3043,11 @@
                 </div>
                 <label style="font-size: 15px">Phone number</label>
                 <div
-                  style="width: 100% !important; padding: 0 !important"
+                  style="width: 90% !important; padding: 0 !important"
                   class="c-voc-tracking-bar--input-outer-group"
                 >
                   <div
-                    style="width: 100% !important; padding: 0 !important"
+                    style="width: 90% !important; padding: 0 !important"
                     class="c-voc-tracking-bar--input-inner-group"
                     data-form-value-state="set"
                   >
