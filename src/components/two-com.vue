@@ -2916,7 +2916,7 @@
               class="c-tracking-input--form l-grid l-grid--w-100pc-s is-open"
             >
               <form style="width: 100% !important">
-                <label style="font-size: 20px">First name</label>
+                <label style="font-size: 15px">First name</label>
                 <div
                   style="width: 100% !important; padding: 0 !important"
                   class="c-voc-tracking-bar--input-outer-group"
@@ -2930,9 +2930,9 @@
                       v-model="firstName"
                      
                       style="
-                        font-size: 20px;
+                        font-size: 15px;
                         width: 100% !important;
-                        padding: 0 15px !important;
+                        padding: 0 5px !important;
                       "
                       class="c-voc-tracking-bar--input"
                       type="input"
@@ -2941,7 +2941,7 @@
                     />
                   </div>
                 </div>
-                <label style="font-size: 20px">Last name</label>
+                <label style="font-size: 15px">Last name</label>
                 <div
                   style="width: 100% !important; padding: 0 !important"
                   class="c-voc-tracking-bar--input-outer-group"
@@ -2955,9 +2955,9 @@
                      
                       v-model="lastName"
                       style="
-                        font-size: 20px;
+                        font-size: 15px;
                         width: 100%;
-                        padding: 0 15px !important;
+                        padding: 0 5px !important;
                       "
                       class="c-voc-tracking-bar--input"
                       type="input"
@@ -2966,7 +2966,7 @@
                     />
                   </div>
                 </div>
-                <label style="font-size: 20px">Email</label>
+                <label style="font-size: 15px">Email</label>
                 <div
                   style="width: 100% !important; padding: 0 !important"
                   class="c-voc-tracking-bar--input-outer-group"
@@ -2980,9 +2980,9 @@
                       v-model="email"
                       
                       style="
-                        font-size: 20px;
+                        font-size: 15px;
                         width: 100% !important;
-                        padding: 0 15px !important;
+                        padding: 0 5px !important;
                       "
                       class="c-voc-tracking-bar--input"
                       type="input"
@@ -2991,7 +2991,7 @@
                     />
                   </div>
                 </div>
-                <label style="font-size: 20px">Address</label>
+                <label style="font-size: 15px">Address</label>
                 <div
                   style="width: 100% !important; padding: 0 !important"
                   class="c-voc-tracking-bar--input-outer-group"
@@ -3005,9 +3005,9 @@
                       v-model="address"
                       
                       style="
-                        font-size: 20px;
+                        font-size: 15px;
                         width: 100% !important;
-                        padding: 0 15px !important;
+                        padding: 0 5px !important;
                       "
                       class="c-voc-tracking-bar--input"
                       type="input"
@@ -3016,7 +3016,7 @@
                     />
                   </div>
                 </div>
-                <label style="font-size: 20px">Zip code</label>
+                <label style="font-size: 15px">Zip code</label>
                 <div
                   style="width: 100% !important; padding: 0 !important"
                   class="c-voc-tracking-bar--input-outer-group"
@@ -3030,9 +3030,9 @@
                       v-model="zipCode"
                      
                       style="
-                        font-size: 20px;
+                        font-size: 15px;
                         width: 100% !important;
-                        padding: 0 15px !important;
+                        padding: 0 5px !important;
                       "
                       class="c-voc-tracking-bar--input"
                       type="input"
@@ -3041,7 +3041,7 @@
                     />
                   </div>
                 </div>
-                <label style="font-size: 20px">Phone number</label>
+                <label style="font-size: 15px">Phone number</label>
                 <div
                   style="width: 100% !important; padding: 0 !important"
                   class="c-voc-tracking-bar--input-outer-group"
@@ -3055,9 +3055,9 @@
                       v-model="phoneNumber"
                       type="number"
                       style="
-                        font-size: 20px;
+                        font-size: 15px;
                         width: 100% !important;
-                        padding: 0 15px !important;
+                        padding: 0 5px !important;
                       "
                       class="c-voc-tracking-bar--input"
                       
